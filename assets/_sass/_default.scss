@@ -196,7 +196,7 @@ pre code {
 }
 .promo .title {
   font-size: 98px;
-  color: darken($color, 30%);
+  color: darken($color, 15%);
   margin-top: 0;
 }
 .promo .title .highlight {
@@ -216,13 +216,13 @@ pre code {
 .promo .meta {
   margin-top: 120px;
   margin-bottom: 30px;
-  color: darken($color, 20%);
+  color: darken($color, 15%);
 }
 .promo .meta li {
   margin-right: 15px;
 }
 .promo .meta a {
-  color: darken($color, 20%);
+  color: darken($color, 15%);
 }
 .promo .meta a:hover {
   color: darken($color, 30%);
@@ -246,7 +246,7 @@ pre code {
   background: #f5f5f5;
 }
 .about .title {
-  color: darken($color, 30%);
+  color: darken($color, 15%);
   margin-top: 0;
   margin-bottom: 60px;
 }
@@ -266,14 +266,14 @@ pre code {
 }
 .about .item .icon-holder .fa {
   font-size: 24px;
-  color: darken($color, 30%);
+  color: darken($color, 15%);
 }
 .about .item .content {
   padding-left: 60px;
 }
 .about .item .content .sub-title {
   margin-top: 0;
-  color: darken($color, 30%);
+  color: darken($color, 15%);
   font-size: 18px;
 }
 /* ======= Join Section ======= */
@@ -349,7 +349,7 @@ pre code {
 .donate .title {
   margin-top: 0;
   margin-bottom: 60px;
-  color: darken($color, 30%);
+  color: darken($color, 15%);
 }
 .donate .donate-inner {
   max-width: 800px;
@@ -430,7 +430,7 @@ pre code {
   margin: 0 auto;
 }
 .contact .title {
-  color: darken($color, 30%);
+  color: darken($color, 15%);
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -438,7 +438,7 @@ pre code {
   margin-bottom: 60px;
 }
 .contact a {
-  color: darken($color, 30%);
+  color: darken($color, 15%);
 }
 .contact a:hover {
   color: darken($color, 40%);
@@ -559,7 +559,7 @@ pre code {
 /* ======= Footer ======= */
 .footer {
   padding: 15px 0;
-  background: darken($color, 40%);
+  background: darken($color, 15%);
   color: #fff;
 }
 .footer .copyright {
