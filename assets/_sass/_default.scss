@@ -78,16 +78,16 @@ a.btn-cta-primary:hover,
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
-  background: $color-2;
-  border: 1px solid $color-2;
+  background: darken($color, 15%);
+  border: 1px solid darken($color, 15%);
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-secondary:hover,
 .btn-cta-secondary:hover {
-  background: darken($color-2, 5%);
-  border: 1px solid darken($color-2, 5%);
+  background: darken($color, 20%);
+  border: 1px solid darken($color, 20%);
   color: #fff;
 }
 .text-highlight {

@@ -48,13 +48,13 @@ layout: default
     <div class="info text-center">
       <ul class="social-icons list-inline">
         {% if site.org_twitter_username %}
-        <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://twitter.com/{{ site.org_twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
         {% endif %}
         {% if site.org_facebook_username %}
-        <li><a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.facebook.com/{{ site.org_facebook_username }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
         {% endif %}
         {% if site.org_instagram_username %}
-        <li><a href="http://instagram.com/{{ site.instagram_username }}"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="http://instagram.com/{{ site.org_instagram_username }}"><i class="fa fa-instagram"></i></a></li>
         {% endif %}
         {% if site.org_general_email_inbox %}
         <li class="last"><a href="mailto: {{ site.org_general_email_inbox }}"><i class="fa fa-envelope"></i></a></li>
@@ -70,7 +70,8 @@ layout: default
     <h2 class="title text-center">About Us</h2>
     <p class="intro text-center">{{ site.org_full_description }}</p>
 
-    <img src="screenshots/commit.jpg">
+    <!--// Add images below-->
+    <!--<img src="screenshots/commit.jpg">-->
   </div><!--//container-->
 </section><!--//about-->
 
@@ -91,7 +92,7 @@ layout: default
             <form class="form-inline" role="form" action="https://tinyletter.com/{{ site.tinyletter_username }}" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/{{ site.tinyletter_username }}', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
               <div class="input-group input-group-lg col-sm-12">
                 <label class="sr-only" for="tlemail">Email address</label>
-                <input type="email" class="form-control" name="email" id="tlemail" placeholder="email address" />
+                <input type="email" class="form-control" name="email" id="tlemail" placeholder="Email Address" />
                 <div class="input-group-btn">
                   <button type="submit" class="button btn btn-cta-secondary">Join Us!</button>
                 </div><!-- /btn-group -->
