@@ -19,6 +19,9 @@
 {% elsif site.theme == "four" %}
   $color: #50c8c9;
   $color-2: #ffbe57;
+{% elsif site.theme == "five" %}
+  $color: #c23ed3;
+  $color-2: #ffbe57;
 {% else %}
   $color: #6690b9;
   $color-2: #dd9d71;
