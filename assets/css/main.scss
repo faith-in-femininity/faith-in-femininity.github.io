@@ -63,7 +63,8 @@
   color: #fff !important;
 }
 .highlight {
-  color: $color !important;
+  color: darken($color, 30%) !important;
+  font-weight: bold
 }
 .promo .social-icons a {
     display: inline-block;
