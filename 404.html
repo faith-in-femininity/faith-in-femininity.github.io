@@ -1,0 +1,38 @@
+---
+layout: error
+---
+<!--    404 PAGE    -->
+<section>
+    <div class="container text-center">
+        <img class="title" src="assets/img/Faith-resized.png" height=25% width=25%>
+        <h2 class="title"><span class="highlight title">404</span></h2>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <a class="btn btn-outline btn-outline-medium" href="/index.html" target="_blank">Go Back</a>
+            </div>
+            <div class="col-sm-6">
+                <a class="btn btn-outline btn-outline-medium" href="/index.html" target="_blank">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <div class="info text-center">
+              <ul class="social-icons list-inline">
+                {% if site.org_twitter_username %}
+                <li><a href="https://twitter.com/{{ site.org_twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                {% endif %}
+                {% if site.org_facebook_username %}
+                <li><a href="https://www.facebook.com/{{ site.org_facebook_username }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                {% endif %}
+                {% if site.org_instagram_username %}
+                <li><a href="http://instagram.com/{{ site.org_instagram_username }}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                {% endif %}
+                {% if site.org_general_email_inbox %}
+                <li class="last"><a href="mailto: {{ site.org_general_email_inbox }}"><i class="fa fa-envelope"></i></a></li>
+                {% endif %}
+              </ul>
+            </div>
+          </div>
+    </div>
+</section>
