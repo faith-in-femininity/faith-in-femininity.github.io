@@ -1,5 +1,4 @@
 <head>
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.org_name }}{% endif %}</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     {% if site.publish == true %}
@@ -8,7 +7,6 @@
       <meta name="robots" content="noindex, nofollow">
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{% if site.summary %}{{ site.summary | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
     <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
     
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
