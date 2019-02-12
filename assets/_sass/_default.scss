@@ -227,19 +227,19 @@ pre code {
 .promo .meta a:hover {
   color: darken($color, 15%);
 }
-/*.promo .social-media {
+.promo .social-media {
   background: darken($color, 15%);
   padding: 10px 0;
   margin: 0 auto;
 }
 .promo .social-media li {
-  margin-top: 15px;
+  //margin-top: 15px;
 }
 .promo .social-media li.facebook-like {
-  margin-top: 0;
+  //margin-top: 0;
   position: relative;
-  top: -5px;
-}*/
+  //top: -5px;
+}
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
