@@ -1,0 +1,36 @@
+---
+title: "Just a test post!"
+layout: post
+date: 2019-17-2 10:40 PM
+tag:
+- test
+- testing
+- post
+image: https://pbs.twimg.com/profile_images/1066192800407085056/DgR7PPoS_400x400.jpg
+headerImage: true
+projects: false
+hidden: false # don't count this post in blog pagination
+description: "This is just a test post!"
+category: project
+author: randykinne
+externalLink: false
+---
+
+
+ **Test Post**
+
+Hi! This is just a post to test things out.
+
+---
+
+Skills utilized:
+
+- Python
+- Git
+- Public API Usage
+- Data Handling
+
+---
+
+[Check it out](http://github.com/randykinne/twitter-subreddit-bot) here.
+If you need some help, just [tell me](http://github.com/randykinne/twitter-subreddit-bot/issues).

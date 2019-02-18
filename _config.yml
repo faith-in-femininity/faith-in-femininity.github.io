@@ -72,8 +72,18 @@ smartergiving_id: #Not yet available
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jemoji
+  - jekyll-mentions
 
 title: Faith in Femininity
 description: >
   A teen-led mission dedicated to giving impoverished women power over their periods.
 logo: assets/img/Faith-resized.png
+
+paginate: 5
+paginate_path: "blog/:num/"
+
+jekyll-mentions:
+    base_url: https://github.com
