@@ -10,7 +10,7 @@ layout: default
 
 <span class="date">
     <time datetime="{{ page.date | date:"%d-%m-%Y" }}">{{ page.date | date: "%A. %B %d, %Y" }}</time>
-    {% if site.read-time %} - {% include read-time.html %}{% endif %}
+    <!---{% if site.read-time %} - {% include read-time.html %}{% endif %}-->
 </span>
 
 {% if site.show-tags %}
@@ -36,7 +36,7 @@ layout: default
     </div>
 {% endif %}
 
-{% if site.related %}
+<!---{% if site.related %}
     {% include related.html %}
 {% endif %}
 
@@ -47,3 +47,4 @@ layout: default
 {% if site.disqus.categories contains page.category %}
     {% include disqus.html %}
 {% endif %}
+-->
