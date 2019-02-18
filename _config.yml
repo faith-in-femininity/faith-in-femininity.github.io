@@ -87,3 +87,5 @@ paginate_path: "blog/:num/"
 
 jekyll-mentions:
     base_url: https://github.com
+
+blog: true
