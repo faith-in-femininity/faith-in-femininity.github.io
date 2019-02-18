@@ -5,7 +5,12 @@ layout: default
 title: Blog
 ---
 {% include nav.html %}
-<section class="list">
+<style>
+	inset {
+		margin-top: 100px;
+	}
+</style>
+<section class="list inset">
 	{% if site.posts.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
 	{% elsif site.paginate %}
