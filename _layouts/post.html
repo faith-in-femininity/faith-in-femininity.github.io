@@ -3,7 +3,7 @@ layout: default
 ---
 {% include nav.html %}
 
-<div class="text-center" style="margin-left: 15%; margin-right: 15%;">
+<div class="text-center" style="margin-left: 25%; margin-right: 25%;">
 {% if page.image and page.headerImage %}
     <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
 {% endif %}
@@ -23,7 +23,9 @@ layout: default
     </div>
 {% endif %}
 
-{{content}}
+<div class="text-center" style="padding-top: 10%">
+        {{content}}
+</div>
 
 {% if site.post-advance-links contains page.category %}
     <div class="blog-navigation">
