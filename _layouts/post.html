@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
+{% include nav.html %}
 
+<div class="text-center">
 {% if page.image and page.headerImage %}
     <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
 {% endif %}
@@ -48,3 +50,4 @@ layout: default
     {% include disqus.html %}
 {% endif %}
 -->
+</div>
