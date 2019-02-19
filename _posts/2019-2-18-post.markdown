@@ -6,7 +6,7 @@ tag:
 - test
 - testing
 - post
-image: https://pbs.twimg.com/profile_images/1066192800407085056/DgR7PPoS_400x400.jpg
+image: https://i2.wp.com/ffpc.org/wp-content/uploads/2017/12/IMG_6933.jpg?zoom=2&resize=250%2C250&ssl=1
 headerImage: true
 projects: false
 hidden: false # don't count this post in blog pagination
