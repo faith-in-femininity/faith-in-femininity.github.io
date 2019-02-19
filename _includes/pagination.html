@@ -6,7 +6,7 @@
         <span class="previous hidden">«</span>
     {% endif %}
 
-    <span class="text-center">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="text-center" style="text-align: center !important;">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
 
     {% if paginator.next_page %}
         <a href="{{ site.url }}{{ paginator.next_page_path }}" class="text-center">»</a>
