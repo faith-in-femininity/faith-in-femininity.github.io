@@ -1,4 +1,5 @@
-<div class="pagination text-center">
+<div class="pagination">
+    <div class="text-center">
     {% if paginator.previous_page %}
         <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous">«</a>
     {% else %}
@@ -12,4 +13,5 @@
     {% else %}
         <span class="next hidden">»</span>
     {% endif %}
+    </div>
 </div>
