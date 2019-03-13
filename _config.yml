@@ -43,7 +43,7 @@ tinyletter_username: faithinfemininity
 
 #SEARCH ENGINES
 #Changing this next setting to 'true' will allow your site to be indexed by search engines (like Google)
-publish: false
+publish: true
 
 #THEME
 #Select one of the five color schemes (default, one, two, three, or four)
