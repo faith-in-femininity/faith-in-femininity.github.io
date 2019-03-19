@@ -4,6 +4,9 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 
   {% include head.html %}
+  {% if site.analytics-google %}
+        {% include analytics-google.html %}
+  {% endif %}
   {% seo %}
   
   <body data-spy="scroll">

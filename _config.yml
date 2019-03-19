@@ -93,3 +93,6 @@ blog: true
 url: https://faithinfemininity.org
 
 post-advance-links: [blog]
+
+# To enable google analytics, supply your token below
+# analytics-google: 'UA-XXXXXXXXX-X' 
