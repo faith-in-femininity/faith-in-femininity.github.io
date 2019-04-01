@@ -76,6 +76,7 @@ plugins:
   - jekyll-paginate
   - jemoji
   - jekyll-mentions
+  - jekyll-sitemap
 
 title: Faith in Femininity
 description: >
